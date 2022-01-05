@@ -1,13 +1,15 @@
 import GlobalStyles from "./styles/GlobalStyles";
 import {Layout} from "./components/Layout"
 
-function App() {
+
+import React from 'react'
+
+export default function App() {
   return (
     <>
         <Layout />
         <GlobalStyles />
     </>
-  );
+  )
 }
 
-export default App;
